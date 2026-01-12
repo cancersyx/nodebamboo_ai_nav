@@ -1,0 +1,420 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "OpenAI 开发的智能对话 AI，支持问答、写作、编程等，免费版和 Plus 版可选。",
+    "url": "https://chat.openai.com",
+    "category": "聊天机器人",
+    "tags": [
+      "免费",
+      "自然语言",
+      "OpenAI",
+      "多语言"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "description": "Anthropic 推出的高智商 AI 助手，擅长长文本理解和安全对话，支持文件上传分析。",
+    "url": "https://claude.ai",
+    "category": "聊天机器人",
+    "tags": [
+      "免费",
+      "文档分析",
+      "Anthropic",
+      "长上下文"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini (Google)",
+    "description": "谷歌推出的多模态 AI，集成在 Gmail、Docs 等产品中，支持图像+文本理解。",
+    "url": "https://gemini.google.com",
+    "category": "聊天机器人",
+    "tags": [
+      "免费",
+      "多模态",
+      "Google",
+      "办公集成"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "description": "通过 Discord 使用的顶级 AI 图像生成工具，艺术风格极强，适合插画与概念设计。",
+    "url": "https://www.midjourney.com",
+    "category": "图像生成",
+    "tags": [
+      "付费",
+      "图像生成",
+      "艺术",
+      "Discord"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL·E 3",
+    "description": "OpenAI 的图像生成模型，可直接在 ChatGPT 中使用，理解复杂提示词能力强。",
+    "url": "https://labs.openai.com",
+    "category": "图像生成",
+    "tags": [
+      "免费",
+      "OpenAI",
+      "高精度",
+      "文本理解"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo.Ai",
+    "description": "面向创作者的 AI 图像生成平台，支持模型训练、图像编辑和游戏资产生成。",
+    "url": "https://leonardo.ai",
+    "category": "图像生成",
+    "tags": [
+      "免费额度",
+      "游戏美术",
+      "自定义模型"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "runway",
+    "name": "Runway ML",
+    "description": "AI 视频生成与编辑工具，支持文本生成视频、绿幕抠像、运动追踪等专业功能。",
+    "url": "https://runwayml.com",
+    "category": "视频生成",
+    "tags": [
+      "免费额度",
+      "视频生成",
+      "影视制作",
+      "Gen-2"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "pika",
+    "name": "Pika Labs",
+    "description": "免费的 AI 视频生成工具，输入文字或图片即可生成 3 秒短视频，社区活跃。",
+    "url": "https://pika.art",
+    "category": "视频生成",
+    "tags": [
+      "免费",
+      "短视频",
+      "社区驱动"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "description": "AI 数字人视频生成平台，上传脚本即可生成带口型同步的真人讲解视频。",
+    "url": "https://www.heygen.com",
+    "category": "视频生成",
+    "tags": [
+      "付费",
+      "数字人",
+      "营销视频",
+      "多语言"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "description": "集成在 Notion 中的 AI 助手，可总结笔记、生成待办、改写文案，提升工作效率。",
+    "url": "https://www.notion.so/product/ai",
+    "category": "写作辅助",
+    "tags": [
+      "付费",
+      "笔记",
+      "办公",
+      "Notion"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "description": "专为营销人员设计的 AI 写作工具，支持广告文案、邮件、社媒内容一键生成。",
+    "url": "https://www.copy.ai",
+    "category": "写作辅助",
+    "tags": [
+      "免费额度",
+      "营销文案",
+      "多模板",
+      "Affiliate 友好"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "description": "老牌 AI 写作平台，适合企业级内容创作，支持品牌语气定制和团队协作。",
+    "url": "https://www.jasper.ai",
+    "category": "写作辅助",
+    "tags": [
+      "付费",
+      "企业级",
+      "品牌定制",
+      "Affiliate 高佣金"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "description": "用 AI 一键生成演示文稿、文档或网页，支持 Markdown 输入，设计感强。",
+    "url": "https://gamma.app",
+    "category": "办公效率",
+    "tags": [
+      "免费额度",
+      "PPT",
+      "文档生成",
+      "设计"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "description": "AI 驱动的故事叙述工具，可生成图文并茂的交互式报告或产品介绍页面。",
+    "url": "https://tome.app",
+    "category": "办公效率",
+    "tags": [
+      "免费额度",
+      "故事板",
+      "演示",
+      "创意"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "基于 GPT 的智能代码编辑器，支持自然语言编程、错误修复和代码解释。",
+    "url": "https://cursor.sh",
+    "category": "编程助手",
+    "tags": [
+      "免费额度",
+      "代码生成",
+      "开发者",
+      "VSCode 替代"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": "微软与 GitHub 联合推出的 AI 编程助手，自动补全代码，支持多种语言。",
+    "url": "https://github.com/features/copilot",
+    "category": "编程助手",
+    "tags": [
+      "付费",
+      "代码补全",
+      "微软",
+      "IDE 插件"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "replit-ai",
+    "name": "Replit Ghostwriter",
+    "description": "在线 IDE Replit 内置的 AI 编程助手，支持全栈项目自动生成。",
+    "url": "https://replit.com/site/ghostwriter",
+    "category": "编程助手",
+    "tags": [
+      "免费额度",
+      "在线编程",
+      "全栈",
+      "教育"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "description": "AI 会议语音转文字工具，自动记录、摘要并分享会议内容，支持多人说话区分。",
+    "url": "https://otter.ai",
+    "category": "语音处理",
+    "tags": [
+      "免费额度",
+      "语音转文字",
+      "会议记录",
+      "协作"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "description": "集录音、转录、剪辑于一体的音频/视频编辑工具，像编辑文档一样剪视频。",
+    "url": "https://www.descript.com",
+    "category": "语音处理",
+    "tags": [
+      "免费额度",
+      "播客",
+      "视频剪辑",
+      "AI 删除填充词"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "description": "高质量 AI 语音合成平台，支持情感语调控制和多语言克隆人声。",
+    "url": "https://elevenlabs.io",
+    "category": "语音处理",
+    "tags": [
+      "免费额度",
+      "语音合成",
+      "TTS",
+      "人声克隆"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "firefly",
+    "name": "Adobe Firefly",
+    "description": "Adobe 官方 AI 工具，集成在 Photoshop 中，支持文生图、字体生成、背景替换等。",
+    "url": "https://firefly.adobe.com",
+    "category": "图像生成",
+    "tags": [
+      "免费额度",
+      "Photoshop",
+      "设计师",
+      "商用安全"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "canva-magic",
+    "name": "Canva Magic Studio",
+    "description": "Canva 内置的 AI 套件，包括文生图、魔法编辑、文案生成等功能，适合非设计师。",
+    "url": "https://www.canva.com/magic-studio/",
+    "category": "设计工具",
+    "tags": [
+      "免费额度",
+      "在线设计",
+      "小白友好",
+      "模板丰富"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "description": "问答式搜索引擎，结合 GPT 与实时网络搜索，答案附带来源链接，适合研究。",
+    "url": "https://www.perplexity.ai",
+    "category": "搜索研究",
+    "tags": [
+      "免费",
+      "实时搜索",
+      "引用来源",
+      "学术"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "youcom",
+    "name": "You.com",
+    "description": "AI 驱动的新一代搜索引擎，整合 Chat、Apps 和 Web 结果，界面清爽。",
+    "url": "https://you.com",
+    "category": "搜索研究",
+    "tags": [
+      "免费",
+      "搜索",
+      "隐私优先",
+      "模块化"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "mem",
+    "name": "Mem AI",
+    "description": "AI 个人知识库工具，自动整理笔记、邮件、日程，帮你记住一切重要信息。",
+    "url": "https://mem.ai",
+    "category": "知识管理",
+    "tags": [
+      "免费额度",
+      "笔记",
+      "记忆增强",
+      "自动化"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "obsidian-ai",
+    "name": "Obsidian with Smart Connections",
+    "description": "本地优先的笔记工具 Obsidian 新增 AI 功能，支持自动链接和内容建议。",
+    "url": "https://obsidian.md",
+    "category": "知识管理",
+    "tags": [
+      "免费",
+      "本地存储",
+      "Markdown",
+      "Zettelkasten"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "lumen5",
+    "name": "Lumen5",
+    "description": "将博客文章自动转为短视频的 AI 工具，适合内容再利用和社交媒体分发。",
+    "url": "https://www.lumen5.com",
+    "category": "视频生成",
+    "tags": [
+      "免费额度",
+      "内容再利用",
+      "社媒视频",
+      "模板"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "description": "无需拍摄即可创建 AI 视频，支持 120+ 数字人和 120+ 语言，用于培训与营销。",
+    "url": "https://www.synthesia.io",
+    "category": "视频生成",
+    "tags": [
+      "付费",
+      "企业视频",
+      "多语言",
+      "无摄像头"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "humata",
+    "name": "Humata",
+    "description": "上传 PDF 即可快速问答和总结，特别适合阅读论文、合同、技术文档。",
+    "url": "https://www.humata.ai",
+    "category": "文档处理",
+    "tags": [
+      "免费额度",
+      "PDF 问答",
+      "学术",
+      "法律"
+    ],
+    "affiliateUrl": ""
+  },
+  {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "description": "简单易用的 PDF 对话工具，上传后即可提问，适合学生和研究人员。",
+    "url": "https://www.chatpdf.com",
+    "category": "文档处理",
+    "tags": [
+      "免费额度",
+      "PDF",
+      "问答",
+      "教育"
+    ],
+    "affiliateUrl": ""
+  }
+]

@@ -1,0 +1,107 @@
+---
+// src/pages/index.astro
+import '../styles/main.css';
+import Layout from '../layouts/Layout.astro';
+import toolsData from '../data/tools.json';
+import { CATEGORIES } from '../data/categories.js';
+
+const allTools = toolsData;
+---
+
+<Layout title="竹节 AI 工具集 | 发现好用的人工智能产品">
+  <div class="page-container">
+    <header>
+      <h1>🤖 竹节 AI 工具集</h1>
+    </header>
+
+    <input
+      type="text"
+      id="searchBox"
+      class="search-bar"
+      placeholder="🔍 搜索工具（如：图像、免费、写作）"
+    />
+
+    <div class="category-buttons">
+      <button data-category="all" class="category-btn active">全部</button>
+      {CATEGORIES.map(cat => (
+        <button data-category={cat} class="category-btn">{cat}</button>
+      ))}
+    </div>
+
+    <!-- ✅ 关键：每张卡片带 data 属性，用于 JS 过滤 -->
+    <div id="toolsContainer">
+      {allTools.map(tool => (
+        <a
+          href={tool.affiliateUrl || tool.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="tool-card"
+          data-category={tool.category}
+          data-name={tool.name}
+          data-description={tool.description}
+          data-tags={tool.tags.join(' ')}
+        >
+          <h3>{tool.name}</h3>
+          <p>{tool.description}</p>
+          <div class="tags">
+            {tool.tags.map(tag => <span class="tag">{tag}</span>)}
+          </div>
+          <span class="visit-link">→ 访问官网</span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- ✅ 轻量级 JS：只控制显示/隐藏 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchBox = document.getElementById('searchBox');
+      const categoryButtons = document.querySelectorAll('.category-btn');
+      const toolCards = document.querySelectorAll('.tool-card');
+
+      let currentCategory = 'all';
+
+      function filterTools() {
+        const query = searchBox.value.trim().toLowerCase();
+
+        toolCards.forEach(card => {
+          const category = card.dataset.category;
+          const name = card.dataset.name.toLowerCase();
+          const desc = card.dataset.description.toLowerCase();
+          const tags = card.dataset.tags.toLowerCase();
+
+          // 分类匹配
+          const categoryMatch = (currentCategory === 'all') || (category === currentCategory);
+          
+          // 搜索匹配
+          const searchMatch = !query ||
+            name.includes(query) ||
+            desc.includes(query) ||
+            tags.includes(query);
+
+          // 同时满足才显示
+          if (categoryMatch && searchMatch) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      // 初始化
+      filterTools();
+
+      // 绑定事件
+      searchBox.addEventListener('input', filterTools);
+
+      categoryButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          categoryButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCategory = btn.dataset.category;
+          filterTools();
+        });
+      });
+    });
+  </script>
+</Layout>
