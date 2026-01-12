@@ -3,10 +3,22 @@ const { title } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
+  <!-- 百度统计 -->
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?93194a9daca6786d154178c757552e7a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="竹节 AI 工具导航站，涵盖聊天、图像、写作、视频等类别，发现最好用的 AI 产品。">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>{title}</title>
     <style>
       body { margin: 0; font-family: sans-serif; }
