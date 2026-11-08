@@ -416,5 +416,19 @@
       "教育"
     ],
     "affiliateUrl": ""
+  },
+  {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "description": "自然语言网页与移动端QA，持久记忆与经验证的自我改进。",
+    "url": "https://vostride.com",
+    "category": "编程助手",
+    "tags": [
+      "QA",
+      "MCP",
+      "持久记忆",
+      "自我改进"
+    ],
+    "affiliateUrl": ""
   }
 ]
